@@ -6,7 +6,7 @@ namespace Apicalypse.Test {
     public class ApicalypseTest {
         [Fact]
         public void TestBuildsSuccessfully() {
-            string desiredOutput = @"fields a,b,c;
+            var desiredOutput = @"fields a,b,c;
 exclude d,e,f;
 where b.count >= 14 & a != n;
 limit 8;
