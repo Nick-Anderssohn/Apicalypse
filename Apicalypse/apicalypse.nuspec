@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>ares.apicalypse</id>
+        <version>0.1.0</version>
+        <title>Apicalypse Builder</title>
+        <authors>Nick Anderssohn</authors>
+        <owners>Nick Anderssohn</owners>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/Nick-Anderssohn/Apicalypse</projectUrl>
+        <iconUrl>https://nuget.org/Content/gallery/img/default-package-icon.svg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <developmentDependency>true</developmentDependency>
+        <description>A library for building Apicalypse queries (https://apicalypse.io/).</description>
+        <summary>A library for building Apicalypse queries.</summary>
+        <language>en-US</language>
+        <tags>apicalypse api</tags>
+        <copyright>Copyright (c) 2019 Nick Anderssohn</copyright>
+    </metadata>
+    <files>
+        <file src="bin/Release/netstandard2.0/Apicalypse.dll" target="lib/netstandard2.0"/>
+    </files>
+</package>

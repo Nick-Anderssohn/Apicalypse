@@ -2,6 +2,42 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <NuspecFile>apicalypse.nuspec</NuspecFile>
     </PropertyGroup>
+
+    <ItemGroup>
+      <_UnmanagedRegistrationCache Remove="obj\Apicalypse.csproj.UnmanagedRegistration.cache" />
+      <_UnmanagedRegistrationCache Remove="obj\Apicalypse.csproj.UnmanagedRegistration.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ResolveComReferenceCache Remove="obj\Release\netstandard2.0\Apicalypse.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Release\netstandard2.0\Apicalypse.csproj.ResolveComReference.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <IntermediateAssembly Remove="obj\Release\netstandard2.0\Apicalypse.dll" />
+      <IntermediateAssembly Remove="obj\Release\netstandard2.0\Apicalypse.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DebugSymbolsIntermediatePath Remove="obj\Release\netstandard2.0\Apicalypse.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Release\netstandard2.0\Apicalypse.pdb" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DeploymentManifestEntryPoint Remove="obj\Release\netstandard2.0\Apicalypse.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Release\netstandard2.0\Apicalypse.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ApplicationManifest Remove="obj\Release\netstandard2.0\Native.Apicalypse.manifest" />
+      <ApplicationManifest Remove="obj\Release\netstandard2.0\Native.Apicalypse.manifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <DeployManifest Remove="obj\Release\netstandard2.0\Apicalypse.application" />
+      <DeployManifest Remove="obj\Release\netstandard2.0\Apicalypse.application" />
+    </ItemGroup>
 
 </Project>
