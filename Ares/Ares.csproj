@@ -3,7 +3,6 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <NuspecFile>apicalypse.nuspec</NuspecFile>
-        <Version>0.1.0</Version>
         <RootNamespace>Ares</RootNamespace>
     </PropertyGroup>
 
