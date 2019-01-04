@@ -1,5 +1,7 @@
 using System.Collections.Generic;
-using Apicalypse.Where;
+using Ares;
+using Ares.Apicalypse;
+using Ares.Apicalypse.Where;
 using Xunit;
 
 namespace Apicalypse.Test {

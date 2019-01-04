@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Apicalypse.Where {
+namespace Ares.Apicalypse.Where {
     public abstract class BaseContainsAtLeastOne<T> : IWhereComponent {
         private readonly string _fieldName;
         private readonly string _logicalOperator;

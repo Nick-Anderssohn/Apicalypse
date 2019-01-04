@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Text;
-using Apicalypse.Where;
+using Ares.Apicalypse.Where;
 
-namespace Apicalypse {
+namespace Ares.Apicalypse {
     /// <summary>
     /// A builder for Apicalypse queries: https://apicalypse.io
     /// </summary>

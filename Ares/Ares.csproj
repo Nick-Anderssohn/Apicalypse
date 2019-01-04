@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <NuspecFile>apicalypse.nuspec</NuspecFile>
+        <Version>0.1.0</Version>
+        <RootNamespace>Ares</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_UnmanagedRegistrationCache Remove="obj\Ares.csproj.UnmanagedRegistration.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ResolveComReferenceCache Remove="obj\Release\netstandard2.0\Ares.csproj.ResolveComReference.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <IntermediateAssembly Remove="obj\Release\netstandard2.0\Ares.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DebugSymbolsIntermediatePath Remove="obj\Release\netstandard2.0\Ares.pdb" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DeploymentManifestEntryPoint Remove="obj\Release\netstandard2.0\Ares.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ApplicationManifest Remove="obj\Release\netstandard2.0\Native.Ares.manifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <DeployManifest Remove="obj\Release\netstandard2.0\Ares.application" />
+    </ItemGroup>
+
+</Project>

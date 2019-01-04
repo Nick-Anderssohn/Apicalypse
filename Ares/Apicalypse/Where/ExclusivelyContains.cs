@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Apicalypse.Where {
+namespace Ares.Apicalypse.Where {
     public class ExclusivelyContains<T> : IWhereComponent {
         private readonly string _fieldName;
         private readonly string _logicalOperator;

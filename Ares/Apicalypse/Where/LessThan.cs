@@ -1,4 +1,4 @@
-namespace Apicalypse.Where {
+namespace Ares.Apicalypse.Where {
     public class LessThan : Pair {
         public LessThan(object left, object right) : base("<", left, right) { }
     }

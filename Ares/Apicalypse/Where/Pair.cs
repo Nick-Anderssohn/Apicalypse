@@ -1,4 +1,4 @@
-namespace Apicalypse.Where {
+namespace Ares.Apicalypse.Where {
     public abstract class Pair : IWhereComponent {
         private readonly string _logicalOperator;
         private readonly object _left;
