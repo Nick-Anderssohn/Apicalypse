@@ -4,6 +4,23 @@ The easiest way to learn it is to check out the Apicalypse syntax at [their webs
 at the examples below.
 
 ## Examples 
+
+## Simple example
+Here is simple example of an Apicalypse query:
+```
+fields id;
+where id = 12;
+```
+
+Here is the equivalent C# code:
+```
+string yourQuery = new ApicalypseBuilder {
+    Fields = new List<string> {"id"},
+    Where = new Equals("id", 12)
+}.build();
+```
+
+### Somewhat complicated example
 Here is an example query from Apicalypse's website:
 ```
 fields a,b,c;
@@ -31,4 +48,5 @@ string yourApicalypseQuery = new ApicalypseBuilder {
 }.Build();
 ```
 Note that you can leave out any part of the builder if you don't want it in the query (i.e. Search or Sort).
-The most complicated part of building queries is usually the Where statement.
+The most complicated part of building queries is usually the Where statement. I recommend checking out the 
+WhereTest.cs file for more examples.
