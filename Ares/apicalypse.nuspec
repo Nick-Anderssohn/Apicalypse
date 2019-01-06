@@ -2,7 +2,7 @@
 <package>
     <metadata>
         <id>ares.apicalypse</id>
-        <version>0.2.0</version>
+        <version>1.0.0</version>
         <title>Apicalypse Builder</title>
         <authors>Nick Anderssohn</authors>
         <owners>Nick Anderssohn</owners>
@@ -16,7 +16,7 @@
         <language>en-US</language>
         <tags>apicalypse api</tags>
         <copyright>Copyright (c) 2019 Nick Anderssohn</copyright>
-        <releaseNotes>Switched Components and Values properties to IEnumerable. Deprecated Values.</releaseNotes>
+        <releaseNotes>More tests + documentation. Removed Values property. 1.0.0 release!</releaseNotes>
     </metadata>
     <files>
         <file src="bin/Debug/**/*.dll" target="lib" />

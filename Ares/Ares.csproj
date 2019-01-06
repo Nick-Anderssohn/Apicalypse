@@ -8,29 +8,36 @@
 
     <ItemGroup>
       <_UnmanagedRegistrationCache Remove="obj\Ares.csproj.UnmanagedRegistration.cache" />
+      <_UnmanagedRegistrationCache Remove="obj\Ares.csproj.UnmanagedRegistration.cache" />
     </ItemGroup>
 
     <ItemGroup>
+      <_ResolveComReferenceCache Remove="obj\Release\netstandard2.0\Ares.csproj.ResolveComReference.cache" />
       <_ResolveComReferenceCache Remove="obj\Release\netstandard2.0\Ares.csproj.ResolveComReference.cache" />
     </ItemGroup>
 
     <ItemGroup>
       <IntermediateAssembly Remove="obj\Release\netstandard2.0\Ares.dll" />
+      <IntermediateAssembly Remove="obj\Release\netstandard2.0\Ares.dll" />
     </ItemGroup>
 
     <ItemGroup>
+      <_DebugSymbolsIntermediatePath Remove="obj\Release\netstandard2.0\Ares.pdb" />
       <_DebugSymbolsIntermediatePath Remove="obj\Release\netstandard2.0\Ares.pdb" />
     </ItemGroup>
 
     <ItemGroup>
       <_DeploymentManifestEntryPoint Remove="obj\Release\netstandard2.0\Ares.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Release\netstandard2.0\Ares.dll" />
     </ItemGroup>
 
     <ItemGroup>
       <ApplicationManifest Remove="obj\Release\netstandard2.0\Native.Ares.manifest" />
+      <ApplicationManifest Remove="obj\Release\netstandard2.0\Native.Ares.manifest" />
     </ItemGroup>
 
     <ItemGroup>
+      <DeployManifest Remove="obj\Release\netstandard2.0\Ares.application" />
       <DeployManifest Remove="obj\Release\netstandard2.0\Ares.application" />
     </ItemGroup>
 
