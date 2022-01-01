@@ -13,7 +13,7 @@ where id = 12;
 ```
 
 Here is the equivalent C# code:
-```
+```cs
 string yourQuery = new ApicalypseBuilder {
     Fields = new List<string> {"id"},
     Where = new Equals("id", 12)
@@ -33,7 +33,7 @@ search "test";
 ```
 
 Here is some example C# code to build the equivalent query:
-```
+```cs
 string yourApicalypseQuery = new ApicalypseBuilder {
     Fields = new List<string> {"a", "b", "c"},
     Exclude = new List<string> {"d", "e", "f"},
